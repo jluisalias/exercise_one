@@ -1,5 +1,13 @@
 <resources>
 
-    <string name="app_name">exercise_one</string>
+    <string name="app_name">Hello User</string>
+    
+    <string name="name">Write your name, please</string>
+    
+    <string name="hello">Submit</string> 
+    
+    <string name="title_activity_main">Welcome</string>
+    
+    <string name="title_activity_hello">Hello</string>
 
 </resources>
