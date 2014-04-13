@@ -1,6 +1,4 @@
-package exercise_one;
-
-import org.jlalias.exercise_one.R;
+package org.jlalias.exercise_one;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -13,9 +11,9 @@ public class FrmHello extends Activity {
         setContentView(R.layout.activity_saludo);
         
         TextView textHello = (TextView)findViewById(R.id.TextHello);
-        
-        Bundle bundle = this.getIntent().getExtras();
 
+        Bundle bundle = this.getIntent().getExtras();
+        
         textHello.setText("Hello " + bundle.getString("NAME"));
-    }
+       }
 }
